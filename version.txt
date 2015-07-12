@@ -1,0 +1,10 @@
+#BetaVersion
+#English
+ This is the latest working version, without clean files and directories. 
+
+#Español
+ Esta es la ultima versión funcional, sin limpiar archivos y directorios.
+
+#Devs
+ Rafael Casas
+ Rosendo Galindo
