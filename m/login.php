@@ -13,9 +13,9 @@ $noticias=$result['loginResult'];
 
 $_SESSION["usuario"]=$noticias;
 if($noticias=="false"){
-header('Location: index.html');
+header('Location: m/index.html');
 }else{
-	header('Location: inicio.php');
+	header('Location: m/inicio.php');
 }
 
 function obj2array($obj) {
