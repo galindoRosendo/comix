@@ -26,7 +26,7 @@
   <div data-role="main" class="ui-content">
  <?php
  session_start();
-include("lib/nusoap.php");
+include("../lib/nusoap.php");
 $objClienteSOAP = new soapclient('http://portalcomix.somee.com/webservice.asmx?WSDL');
 $objRespuesta = $objClienteSOAP->comics();
 $result = obj2array($objRespuesta);

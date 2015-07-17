@@ -18,7 +18,7 @@
   <div data-role="main" class="ui-content">
   
    <?php 
-include("lib/nusoap.php");
+include("../lib/nusoap.php");
 session_start();
 
 $usr=$_POST['usr'];

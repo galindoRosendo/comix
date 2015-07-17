@@ -1,5 +1,5 @@
 <?php 
-include("lib/nusoap.php");
+include("../lib/nusoap.php");
 session_start();
 
 $usr=$_POST['usr'];
@@ -13,9 +13,9 @@ $noticias=$result['loginResult'];
 
 $_SESSION["usuario"]=$noticias;
 if($noticias=="false"){
-header('Location: m/index.html');
+header('Location: index.html');
 }else{
-	header('Location: m/inicio.php');
+	header('Location: inicio.php');
 }
 
 function obj2array($obj) {

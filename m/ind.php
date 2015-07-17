@@ -29,7 +29,7 @@
   
  <?php
  session_start();
-include("lib/nusoap.php");
+include("../lib/nusoap.php");
 $id= $_GET['id'];
 $param = array('idcomic' => $id);
 $objClienteSOAP = new nusoap_client('http://portalcomix.somee.com/webservice.asmx?WSDL','wsdl');
